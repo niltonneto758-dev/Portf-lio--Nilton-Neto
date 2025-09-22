@@ -198,7 +198,7 @@
     <section id="sobre">
       <h2>Sobre Mim</h2>
       <div class="sobre">
-        <img src="2a25de24b45816bd07db73899e3f6d67 (1).jpg" alt="Minha foto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSfQXbMCSnzY9WpL0W6yEsvR0K2jicxM2YJw&s" alt="Minha foto">
         <p>Meu nome é <strong>Nilton de Souza Bittencourt Neto</strong>, tenho 13 anos e sou apaixonado por tecnologia. 
         Busco iniciar minha jornada profissional como desenvolvedor de sites. 
         Também tenho experiência com design gráfico e edição de vídeos, 
@@ -224,7 +224,7 @@
     <span class="close" onclick="closeModal('modal2')">&times;</span>
     <h2>Projeto 2</h2>
     <p>Protótipo do login em HTML e CSS:</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSfQXbMCSnzY9WpL0W6yEsvR0K2jicxM2YJw&s" alt="Projeto 2" style="max-width:100%; border-radius:10px;">
+    <img src="" alt="Projeto 2" style="max-width:100%; border-radius:10px;">
   </div>
 </div>
         <div class="card" onclick="openModal('modal3')">
