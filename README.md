@@ -213,11 +213,12 @@
           <h3>Projeto 1</h3>
           <p>Um site responsivo com design moderno.</p>
         </div>
-       <div class="card" onclick="openModal('modal2')">
+       ndnd
+       <a href="teste"
   <h3>Projeto 2</h3>
   <p>Protótipo do login que desenvolvi em HTML e CSS.</p>
 </div>
-
+</a>
 <!-- Modal Projeto 2 -->
 <div id="modal2" class="modal">
   <div class="modal-content">
