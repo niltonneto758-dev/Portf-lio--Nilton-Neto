@@ -214,11 +214,12 @@
           <p>Um site responsivo com design moderno.</p>
         </div>
        ndnd
-       <a href="teste"
-  <h3>Projeto 2</h3>
+      
+  <h3 a href="teste" >
+    Projeto 2</h3>
   <p>Protótipo do login que desenvolvi em HTML e CSS.</p>
 </div>
-</a>
+
 <!-- Modal Projeto 2 -->
 <div id="modal2" class="modal">
   <div class="modal-content">
