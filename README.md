@@ -224,7 +224,7 @@
     <span class="close" onclick="closeModal('modal2')">&times;</span>
     <h2>Projeto 2</h2>
     <p>Protótipo do login em HTML e CSS:</p>
-    <img src="791fc0b9-1143-4146-8b0d-ade59c59ba95.png" alt="Projeto 2" style="max-width:100%; border-radius:10px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSfQXbMCSnzY9WpL0W6yEsvR0K2jicxM2YJw&s" alt="Projeto 2" style="max-width:100%; border-radius:10px;">
   </div>
 </div>
         <div class="card" onclick="openModal('modal3')">
