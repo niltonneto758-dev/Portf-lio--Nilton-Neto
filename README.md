@@ -215,7 +215,7 @@
         </div>
        ndnd
       
-  <h3 a href="teste" >
+  <h3 >
     Projeto 2</h3>
   <p>Protótipo do login que desenvolvi em HTML e CSS.</p>
 </div>
