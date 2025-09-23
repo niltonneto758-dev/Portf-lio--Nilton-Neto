@@ -679,7 +679,7 @@
 
 
 <a href="olk.html">
-<button class="cta">
+<button class="projeto1">
   <span>HTML</span>
   <svg width="15px" height="10px" viewBox="0 0 13 10">
     <path d="M1,5 L11,5"></path>
