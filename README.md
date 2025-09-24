@@ -1,7 +1,7 @@
-
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5500/hhh.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Nilton Neto</title>
   <style>
@@ -188,9 +188,9 @@
     <h1>Nilton Neto</h1>
     <p>Desenvolvedor Web | Editor de Vídeo | Designer</p>
     <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contato">Contato</a>
+      <a href="http://127.0.0.1:5500/hhh.html#sobre">Sobre</a>
+      <a href="http://127.0.0.1:5500/hhh.html#projetos">Projetos</a>
+      <a href="http://127.0.0.1:5500/hhh.html#contato">Contato</a>
     </nav>
   </header>
 
@@ -198,7 +198,7 @@
     <section id="sobre">
       <h2>Sobre Mim</h2>
       <div class="sobre">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSfQXbMCSnzY9WpL0W6yEsvR0K2jicxM2YJw&s" alt="Minha foto">
+        <img src="https://i.pinimg.com/1200x/2a/25/de/2a25de24b45816bd07db73899e3f6d67.jpg" alt="Minha foto">
         <p>Meu nome é <strong>Nilton de Souza Bittencourt Neto</strong>, tenho 13 anos e sou apaixonado por tecnologia. 
         Busco iniciar minha jornada profissional como desenvolvedor de sites. 
         Também tenho experiência com design gráfico e edição de vídeos, 
@@ -209,624 +209,25 @@
     <section id="projetos">
       <h2>Projetos</h2>
       <div class="projetos">
-        
-        <div class="card" onclick="!DOCTYPE hUT-8"
-
-    
-
-
-
-
-
-
-
-
-
-
-<style>  :root{
-    --size: 220px;        /* tamanho do anel externo */
-    --photo-size: 192px;  /* tamanho da foto */
-    --ring-thickness: 14px; /* espessura da borda colorida */
-  }
-
-  body{
-    margin:0;
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:transparent; /* fundo transparente */
-  }
-
-  .orb-wrap{
-    position:relative;
-    width:var(--size);
-    height:var(--size);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    animation: bob 4s ease-in-out infinite; /* flutuar */
-  }
-
-  .ring{
-    position:absolute;
-    width:100%;
-    height:100%;
-    border-radius:50%;
-    background: conic-gradient(
-      from 0deg,
-      #ff6b6b,
-      #fbc02d,
-      #6ee7b7,
-      #60a5fa,
-      #c084fc,
-      #ff6b6b
-    );
-    filter: blur(4px) saturate(120%);
-    z-index:1;
-    animation: spinColors 6s linear infinite;
-  }
-
-  .ring::after{
-    content:"";
-    position:absolute;
-    inset:var(--ring-thickness);
-    border-radius:50%;
-    background:transparent;
-    box-shadow: 0 0 0 9999px transparent; /* transparente para deixar só a borda */
-  }
-
-  .photo{
-    position:relative;
-    width:var(--photo-size);
-    height:var(--photo-size);
-    z-index:2;
-    border-radius:50%;
-    overflow:hidden;
-    display:block;
-    box-shadow: inset 0 -6px 18px rgba(0,0,0,0.25);
-    background:#fff; /* fundo branco atrás da foto */
-  }
-
-  .photo img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-  }
-
-  @keyframes spinColors{
-    from{ transform: rotate(0deg); }
-    to{ transform: rotate(360deg); }
-  }
-
-  @keyframes bob{
-    0%{ transform: translateY(0px); }
-    50%{ transform: translateY(-14px); }
-    100%{ transform: translateY(0px); }
-  }
-</style>
-</head>
-<body>
-
-  <div class="orb-wrap">    
-    <div class="ring"></div>
-    <!-- Troque o src abaixo pela sua foto -->
-    <div class="photo">
-      <img src="2a25de24b45816bd07db73899e3f6d67.jpg" alt="Sua foto aqui">
-    </div>
-  </div>
-<!-- From Uiverse.io by Praashoo7 --> 
-
-
-
-
-
-
-
-
-
-<!-- From Uiverse.io by Praashoo7 --> 
-
-
-
-
-
-
-
-
-<!-- From Uiverse.io by AlimurtuzaCodes --> 
-
-  <!-- From Uiverse.io by kamehame-ha --> 
-
-
-  
-</head>
-<body>
-
-  <style>
-  :root{
-    --btn-size: 100px; /* tamanho do círculo */
-    --gap: 22px;
-    --bg: #0b0b0c;
-  }
-
-  *{box-sizing:border-box}
-  body{
-    margin:0;
-    min-height:100vh;
-    display:grid;
-    place-items:center;
-    background: linear-gradient(180deg, var(--bg), #080808 80%);
-    font-family: Arial, sans-serif;
-    color:#fff;
-  }
-
-  .btn-grid{
-    display:grid;
-    grid-template-columns: repeat(2, var(--btn-size));
-    gap: var(--gap);
-    justify-items:center;
-    align-items:center;
-    padding: 24px;
-  }
-
-  .circle-btn{
-    width: var(--btn-size);
-    height: var(--btn-size);
-    border-radius: 50%;
-    overflow: hidden;
-    cursor:pointer;
-    position: relative;
-    transition: transform .25s ease, box-shadow .25s ease;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
-  }
-
-  .circle-btn:hover{
-    transform: scale(1.1);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.7);
-  }
-
-  /* a imagem fica certinha no círculo */
-  .circle-btn img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* preenche o círculo */
-    border-radius: 50%;
-  }
-
-  @media (max-width:420px){
-    :root{ --btn-size: 80px; }
-  }
-
-
-
-
-    
-
-  </style>
-
-
-
-<style>
-  :root{
-    --btn-size: 100px; /* tamanho do círculo */
-    --gap: 22px;
-    --bg: #0b0b0c;
-  }
-
-  *{box-sizing:border-box}
-  body{
-    margin:0;
-    min-height:100vh;
-    display:grid;
-    place-items:center;
-    background: linear-gradient(180deg, var(--bg), #080808 80%);
-    font-family: Arial, sans-serif;
-    color:#fff;
-  }
-
-  .btn-grid{
-    display:grid;
-    grid-template-columns: repeat(2, var(--btn-size));
-    gap: var(--gap);
-    justify-items:center;
-    align-items:center;
-    padding: 24px;
-  }
-
-  .circle-btn{
-    width: var(--btn-size);
-    height: var(--btn-size);
-    border-radius: 50%;
-    overflow: hidden;
-    cursor:pointer;
-    position: relative;
-    transition: transform .25s ease, box-shadow .25s ease;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
-  }
-
-  .circle-btn:hover{
-    transform: scale(1.1);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.7);
-  }
-
-  /* a imagem fica certinha no círculo */
-  .circle-btn img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* preenche o círculo */
-    border-radius: 50%;
-  }
-
-  @media (max-width:420px){
-    :root{ --btn-size: 80px; }
-  }
-</style>
-</head>
-<body>
-
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botões de Redes Sociais Animados</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Estilos gerais do corpo da página */
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #282c36; /* Fundo escuro */
-            display: flex;
-            justify-content: center; /* Centraliza horizontalmente */
-            align-items: center;     /* Centraliza verticalmente */
-            height: 100vh;           /* Ocupa a altura total da viewport */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            gap: 30px; /* Espaço entre os botões */
-        }
-
-        /* Estilo base para todos os botões de rede social */
-        .social-button {
-            display: inline-flex; /* Para alinhar o ícone e o texto */
-            align-items: center;
-            justify-content: center;
-            padding: 15px 30px;
-            border-radius: 50px; /* Bordas bem arredondadas */
-            text-decoration: none; /* Remove sublinhado dos links */
-            color: #ffffff; /* Cor do texto e ícone */
-            font-size: 20px;
-            font-weight: bold;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
-            transition: all 0.3s ease-in-out; /* Transição suave para todas as propriedades */
-            cursor: pointer; /* Indica que é clicável */
-        }
-
-        /* Estilo específico para o botão do TikTok */
-        .tiktok-button {
-            background-color: #222222; /* Cor de fundo do TikTok */
-            border: 2px solid #00f2ea; /* Borda ciano */
-        }
-
-        /* Efeito de hover para o botão do TikTok */
-        .tiktok-button:hover {
-            transform: scale(1.1); /* Aumenta o tamanho */
-            background-color: #00f2ea; /* Muda a cor de fundo */
-            color: #222222; /* Muda a cor do texto */
-            box-shadow: 0 8px 20px rgba(0, 242, 234, 0.6); /* Sombra brilhante */
-            border-color: #222222; /* Inverte a cor da borda */
-        }
-
-        /* Estilo específico para o botão do Instagram */
-        .instagram-button {
-            background-color: #222222; /* Cor de fundo similar */
-            border: 2px solid #d62976; /* Borda rosa/roxo do Instagram */
-        }
-
-        /* Efeito de hover para o botão do Instagram */
-        .instagram-button:hover {
-            transform: scale(1.1); /* Aumenta o tamanho */
-            /* Gradiente de fundo do Instagram */
-            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-            color: #ffffff; /* Garante que o texto fique branco */
-            box-shadow: 0 8px 20px rgba(220, 39, 67, 0.6); /* Sombra brilhante */
-            border-color: #ffffff; /* Borda branca no hover */
-        }
-
-        /* Estilo para os ícones dentro dos botões */
-        .social-button i {
-            margin-right: 10px; /* Espaçamento entre o ícone e o texto */
-            font-size: 24px; /* Tamanho maior para os ícones */
-        }
-    </style>
-</head>
-<body>
-
-    <a href="https://www.tiktok.com/@nilton...568?is_from_webapp=1&sender_device=pc" target="_blank" class="social-button tiktok-button">
-        <i class="fab fa-tiktok"></i>
-        TikTok
-    </a>
-
-    <a href="https://www.instagram.com/niltondesouzabittencourtneto?igsh=MWZ4cGM0dW1wYWQ2aA==" target="_blank" class="social-button instagram-button">
-        <i class="fab fa-instagram"></i>
-        Instagram
-    </a>
-
-</body>
-</html>
-
-
-<a href="olk.html">
-<button class="projeto1">
-  <span>HTML</span>
-  <svg width="15px" height="10px" viewBox="0 0 13 10">
-    <path d="M1,5 L11,5"></path>
-    <polyline points="8 1 12 5 8 9"></polyline>
-  </svg>
-</button>
-</a>
-
-
-
-<style>
-  /* From Uiverse.io by alexmaracinaru */ 
-.cta {
-  position: relative;
-  margin: auto;
-  padding: 12px 18px;
-  transition: all 0.2s ease;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 50px;
-  background: #b1dae7;
-  width: 45px;
-  height: 45px;
-  transition: all 0.3s ease;
-}
-
-.cta span {
-  position: relative;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  color: #234567;
-}
-
-.cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #234567;
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-
-.cta:hover:before {
-  width: 100%;
-  background: #b1dae7;
-}
-
-.cta:hover svg {
-  transform: translateX(0);
-}
-
-.cta:active {
-  transform: scale(0.95);
-}
-
-
-
-
-</style>
-
-
-<a
-  href="css.html">
-<button class="cta">
-  <span>CSS</span>
-  <svg width="15px" height="10px" viewBox="0 0 13 10">
-    <path d="M1,5 L11,5"></path>
-    <polyline points="8 1 12 5 8 9"></polyline>
-  </svg>
-</button>
-</a>
-
-
-
-<style>
-  /* From Uiverse.io by alexmaracinaru */ 
-.cta {
-  position: relative;
-  margin: auto;
-  padding: 12px 18px;
-  transition: all 0.2s ease;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 50px;
-  background: #b1dae7;
-  width: 45px;
-  height: 45px;
-  transition: all 0.3s ease;
-}
-
-.cta span {
-  position: relative;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  color: #234567;
-}
-
-.cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #234567;
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-
-.cta:hover:before {
-  width: 100%;
-  background: #b1dae7;
-}
-
-.cta:hover svg {
-  transform: translateX(0);
-}
-
-.cta:active {
-  transform: scale(0.95);
-}
-
-
-
-
-
-</style>
-
-
-<a href="js.html">
-<button class="cta">
-  <span>JS</span>
-  <svg width="15px" height="10px" viewBox="0 0 13 10">
-    <path d="M1,5 L11,5"></path>
-    <polyline points="8 1 12 5 8 9"></polyline>
-  </svg>
-</button>
-
-</a>
-
-
-<style>
-  /* From Uiverse.io by alexmaracinaru */ 
-.cta {
-  position: relative;
-  margin: auto;
-  padding: 12px 18px;
-  transition: all 0.2s ease;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 50px;
-  background: #b1dae7;
-  width: 45px;
-  height: 45px;
-  transition: all 0.3s ease;
-}
-
-.cta span {
-  position: relative;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  color: #234567;
-}
-
-.cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #234567;
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-
-.cta:hover:before {
-  width: 100%;
-  background: #b1dae7;
-}
-
-.cta:hover svg {
-  transform: translateX(0);
-}
-
-.cta:active {
-  transform: scale(0.95);
-}
-
-
-
-
-
-</style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>">
+        <div class="card" onclick="window.open(&#39;http://127.0.0.1:5500/omg111/index.html&#39;,&#39;_blank&#39;)">
           <h3>Projeto 1</h3>
           <p>Um site responsivo com design moderno.</p>
         </div>
-       ndnd
-      
-  <h3 >
-    Projeto 2</h3>
+       <div class="card" onclick="openModal(&#39;modal2&#39;)">
+  <h3>Projeto 2</h3>
   <p>Protótipo do login que desenvolvi em HTML e CSS.</p>
 </div>
 
 <!-- Modal Projeto 2 -->
 <div id="modal2" class="modal">
   <div class="modal-content">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <span class="close" onclick="closeModal(&#39;modal2&#39;)">×</span>
     <h2>Projeto 2</h2>
     <p>Protótipo do login em HTML e CSS:</p>
-    <img src="" alt="Projeto 2" style="max-width:100%; border-radius:10px;">
+    <img src="./Portfólio - Nilton Neto_files/791fc0b9-1143-4146-8b0d-ade59c59ba95.png" alt="Projeto 2" style="max-width:100%; border-radius:10px;">
   </div>
 </div>
-        <div class="card" onclick="openModal('modal3')">
+        <div class="card" onclick="openModal(&#39;modal3&#39;)">
           <h3>Projeto 3</h3>
           <p>Animação divertida feita em CSS.</p>
         </div>
@@ -842,21 +243,21 @@
   </div>
 
   <footer>
-    <p>&copy; 2025 - Nilton Neto </p>
+    <p>© 2025 - Nilton Neto </p>
   </footer>
 
   <!-- Modal Projeto 2 -->
   <div id="modal2" class="modal">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <span class="close" onclick="closeModal(&#39;modal2&#39;)">×</span>
     <div class="modal-content">
       <h2>Projeto 2 - Tela de Login</h2>
-      <img src="projeto2.png" alt="Projeto 2">
+      <img src="./Portfólio - Nilton Neto_files/projeto2.png" alt="Projeto 2">
     </div>
   </div>
 
   <!-- Modal Projeto 3 -->
   <div id="modal3" class="modal">
-    <span class="close" onclick="closeModal('modal3')">&times;</span>
+    <span class="close" onclick="closeModal(&#39;modal3&#39;)">×</span>
     <div class="modal-content">
       <h2>Projeto 3 - Animação em CSS</h2>
       <div class="loader">
@@ -875,5 +276,44 @@
       document.getElementById(id).style.display = 'none';
     }
   </script>
-</body>
-</html>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
